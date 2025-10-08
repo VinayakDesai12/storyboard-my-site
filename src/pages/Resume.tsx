@@ -44,13 +44,13 @@ const Resume = () => {
     {
       degree: "Master of Computer Science",
       institution: "University of Technology",
-      period: "2015 - 2017",
+      period: "2027 - 2029",
       description: "Specialized in Software Engineering and Web Technologies"
     },
     {
-      degree: "Bachelor of Computer Applications",
-      institution: "College of Engineering",
-      period: "2012 - 2015",
+      degree: "Bachelor of Computer Science",
+      institution: " Sri sairam college of engineering",
+      period: "2023 - 2027",
       description: "Graduated with First Class Honors"
     }
   ];
