@@ -5,14 +5,14 @@ import { Button } from "@/components/ui/button";
 
 const Bio = () => {
   const personalInfo = {
-    name: "John Doe",
+    name: "Vinayak Mallesh Desai ",
     title: "Full Stack Developer & Tech Enthusiast",
-    email: "john.doe@example.com",
-    phone: "+1 (555) 123-4567",
-    location: "San Francisco, CA",
-    website: "www.johndoe.com",
-    github: "github.com/johndoe",
-    linkedin: "linkedin.com/in/johndoe"
+    email: " sce23cs094@sairamtap.edu.in",
+    phone: " 91+ 7411366982",
+    location: " Benglore, BE",
+    website: "www. VinayakDesai12.com",
+    github: "github.com/ vinayak",
+    linkedin: "linkedin.com/in/ Vinayak"
   };
 
   const interests = [
@@ -23,10 +23,10 @@ const Bio = () => {
   ];
 
   const languages = [
-    { name: "English", proficiency: "Native" },
-    { name: "Spanish", proficiency: "Fluent" },
-    { name: "French", proficiency: "Intermediate" },
-    { name: "Japanese", proficiency: "Basic" }
+    { name: "Kannada", proficiency: "Native" },
+    { name: "English", proficiency: "Fluent" },
+    { name: "Hindi", proficiency: "Intermediate" },
+    { name: "Marathi", proficiency: "Basic" }
   ];
 
   return (
