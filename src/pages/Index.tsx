@@ -14,7 +14,7 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 font-display bg-gradient-hero bg-clip-text text-transparent">
-              Hello, I'm John Doe
+              Hello, I'm Vinayak Mallesh Desai
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-slide-up">
               Full Stack Developer | Tech Enthusiast | Problem Solver
