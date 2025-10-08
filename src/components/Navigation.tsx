@@ -4,10 +4,10 @@ import { Button } from "@/components/ui/button";
 
 const Navigation = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-lg border-b border-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-lg border-b border-border shadow-card">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <NavLink to="/" className="text-2xl font-bold bg-gradient-hero bg-clip-text text-transparent">
+          <NavLink to="/" className="text-2xl font-bold font-display gradient-text hover-scale">
             Portfolio
           </NavLink>
           
@@ -17,7 +17,7 @@ const Navigation = () => {
                 <Button 
                   variant={isActive ? "default" : "ghost"} 
                   size="sm"
-                  className="gap-2"
+                  className={`gap-2 transition-all ${!isActive && 'hover-scale'}`}
                 >
                   <Home className="h-4 w-4" />
                   <span className="hidden sm:inline">Home</span>
@@ -30,7 +30,7 @@ const Navigation = () => {
                 <Button 
                   variant={isActive ? "default" : "ghost"} 
                   size="sm"
-                  className="gap-2"
+                  className={`gap-2 transition-all ${!isActive && 'hover-scale'}`}
                 >
                   <FileText className="h-4 w-4" />
                   <span className="hidden sm:inline">Resume</span>
@@ -43,7 +43,7 @@ const Navigation = () => {
                 <Button 
                   variant={isActive ? "default" : "ghost"} 
                   size="sm"
-                  className="gap-2"
+                  className={`gap-2 transition-all ${!isActive && 'hover-scale'}`}
                 >
                   <User className="h-4 w-4" />
                   <span className="hidden sm:inline">Bio</span>

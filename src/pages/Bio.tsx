@@ -36,7 +36,7 @@ const Bio = () => {
       <main className="container mx-auto px-4 pt-24 pb-12">
         <div className="animate-fade-in">
           <div className="text-center mb-12">
-            <h1 className="text-5xl font-bold mb-4 bg-gradient-hero bg-clip-text text-transparent">
+            <h1 className="text-5xl font-bold mb-4 font-display bg-gradient-hero bg-clip-text text-transparent">
               Bio-Data
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -46,7 +46,7 @@ const Bio = () => {
 
           <div className="max-w-4xl mx-auto space-y-8">
             {/* Personal Information Card */}
-            <Card className="shadow-card hover:shadow-hover transition-all duration-300 animate-slide-up">
+            <Card className="shadow-card hover-lift animate-slide-up">
               <CardHeader>
                 <CardTitle className="text-3xl">Personal Information</CardTitle>
               </CardHeader>
@@ -92,11 +92,11 @@ const Bio = () => {
                   </div>
 
                   <div className="flex justify-center gap-4 pt-4">
-                    <Button variant="outline" className="gap-2">
+                    <Button variant="outline" className="gap-2 hover-scale">
                       <Github className="h-4 w-4" />
                       GitHub
                     </Button>
-                    <Button variant="outline" className="gap-2">
+                    <Button variant="outline" className="gap-2 hover-scale">
                       <Linkedin className="h-4 w-4" />
                       LinkedIn
                     </Button>

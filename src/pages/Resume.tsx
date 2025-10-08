@@ -76,7 +76,7 @@ const Resume = () => {
       <main className="container mx-auto px-4 pt-24 pb-12">
         <div className="animate-fade-in">
           <div className="text-center mb-12">
-            <h1 className="text-5xl font-bold mb-4 bg-gradient-hero bg-clip-text text-transparent">
+            <h1 className="text-5xl font-bold mb-4 font-display bg-gradient-hero bg-clip-text text-transparent">
               Resume
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -94,7 +94,7 @@ const Resume = () => {
             </div>
             <div className="space-y-6">
               {experiences.map((exp, index) => (
-                <Card key={index} className="shadow-card hover:shadow-hover transition-all duration-300">
+                <Card key={index} className="shadow-card hover-lift">
                   <CardHeader>
                     <div className="flex justify-between items-start flex-wrap gap-2">
                       <div>
