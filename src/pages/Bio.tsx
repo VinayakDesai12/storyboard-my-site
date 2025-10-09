@@ -11,7 +11,7 @@ const Bio = () => {
     phone: " 91+ 7411366982",
     location: " Benglore, Anekal",
     website: "www.vinu.com",
-    github: "github.com/ vinayak",
+    github: "https://github.com/VinayakDesai12",
     linkedin: "linkedin.com/in/ Vinayak"
   };
 
@@ -92,11 +92,11 @@ const Bio = () => {
                   </div>
 
                   <div className="flex justify-center gap-4 pt-4">
-                    <Button variant="outline" className="gap-2 hover-scale" onclick="window.open('https://github.com/VinayakDesai12', '_blank')">
+                    <Button variant="outline" className="gap-2 hover-scale" >
                       <Github className="h-4 w-4" />
                       GitHub
                     </Button>
-                    <Button variant="outline" className="gap-2 hover-scale" onclick="window.open('linkedin.com/in/vinayak-desai-900491341', '_blank')">
+                    <Button variant="outline" className="gap-2 hover-scale" >
                       <Linkedin className="h-4 w-4" />
                       Linkedin
                     </Button>
