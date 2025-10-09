@@ -92,13 +92,13 @@ const Bio = () => {
                   </div>
 
                   <div className="flex justify-center gap-4 pt-4">
-                    <Button variant="outline" className="gap-2 hover-scale">
+                    <Button variant="outline" className="gap-2 hover-scale" onclick="https://github.com/VinayakDesai12">
                       <Github className="h-4 w-4" />
-                      <a href="https://github.com/VinayakDesai12">GitHub </a>
+                      GitHub
                     </Button>
                     <Button variant="outline" className="gap-2 hover-scale">
                       <Linkedin className="h-4 w-4" />
-                      <a href="linkedin.com/in/vinayak-desai-900491341">Linkedin </a>
+                      Linkedin
                     </Button>
                   </div>
                 </div>
