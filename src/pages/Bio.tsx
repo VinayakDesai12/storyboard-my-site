@@ -5,14 +5,14 @@ import { Button } from "@/components/ui/button";
 
 const Bio = () => {
   const personalInfo = {
-    name: "Vinayak Mallesh Desai",
+    name: "Vinayak Mallesh Desai ",
     title: "Full Stack Developer & Tech Enthusiast",
-    email: "sce23cs094@sairamtap.edu.in",
-    phone: "91+ 7411366982",
-    location: "Bengaluru, Anekal",
-    website: "https://www.vinu.com", // Ensure URL is complete
-    github: "https://github.com/vinayak", // Ensure URL is complete
-    linkedin: "https://linkedin.com/in/vinayak" // Ensure URL is complete
+    email: " sce23cs094@sairamtap.edu.in",
+    phone: " 91+ 7411366982",
+    location: " Benglore, Anekal",
+    website: "www.vinu.com",
+    github: "github.com/ vinayak",
+    linkedin: "linkedin.com/in/ Vinayak"
   };
 
   const interests = [
