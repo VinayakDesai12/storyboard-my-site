@@ -94,11 +94,11 @@ const Bio = () => {
                   <div className="flex justify-center gap-4 pt-4">
                     <Button variant="outline" className="gap-2 hover-scale">
                       <Github className="h-4 w-4" />
-                      GitHub
+                      <a href="https://github.com/VinayakDesai12">GitHub </a>
                     </Button>
                     <Button variant="outline" className="gap-2 hover-scale">
                       <Linkedin className="h-4 w-4" />
-                      LinkedIn
+                      <a href="linkedin.com/in/vinayak-desai-900491341">Linkedin </a>
                     </Button>
                   </div>
                 </div>
