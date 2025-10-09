@@ -9,8 +9,8 @@ const Bio = () => {
     title: "Full Stack Developer & Tech Enthusiast",
     email: " sce23cs094@sairamtap.edu.in",
     phone: " 91+ 7411366982",
-    location: " Benglore, Anekal",
-    website: "www.vinu.com",
+    location: " Benglore, BE",
+    website: "www. VinayakDesai12.com",
     github: "github.com/ vinayak",
     linkedin: "linkedin.com/in/ Vinayak"
   };
