@@ -96,7 +96,7 @@ const Bio = () => {
                       <Github className="h-4 w-4" />
                       GitHub
                     </Button>
-                    <Button variant="outline" className="gap-2 hover-scale">
+                    <Button variant="outline" className="gap-2 hover-scale" onclick="linkedin.com/in/vinayak-desai-900491341">
                       <Linkedin className="h-4 w-4" />
                       Linkedin
                     </Button>
