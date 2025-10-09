@@ -11,7 +11,7 @@ const Bio = () => {
     phone: " 91+ 7411366982",
     location: " Benglore, Anekal",
     website: "www.vinu.com",
-    github: "https://github.com/VinayakDesai12",
+    github: "github.com/ vinayak",
     linkedin: "linkedin.com/in/ Vinayak"
   };
 
